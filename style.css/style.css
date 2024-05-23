@@ -1,0 +1,48 @@
+/*selector universal*/
+* {
+    margin:0;
+    padding:0%;
+    }
+    /*selector de etiquetas*/
+    body{
+background-color: rgb(167, 107, 107);
+    color: rgb(18, 18, 20);
+    }
+    ul{
+    text-align:center;
+    padding:10px;
+    }
+    li{
+    display:inline;
+    padding:10px 30px;
+    margin: 3em;
+    }
+    li a :hover{
+    color: blueviolet;
+    font-size: 40px;
+    text-decoration: none;
+    list-style:none;
+    }
+    /*selector id3*/
+    #contenedor{
+    width: 500px;
+    height:2000px;
+    background-color: blanchedalmond;
+    margin:10px;
+    padding:20px;
+    
+    }
+    #encabezado{
+    width:90%;
+    background-color:blanchelmond;
+    margin:lem;
+    text-align:center;
+    border-radius:5px;
+    }
+    #menu{
+    height:40px;
+    background-color:morado;
+    margin:1em
+    border-radius 6px;
+    }
+    
